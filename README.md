@@ -8,15 +8,15 @@ So. I compile and run the program... And the result is not the same! I was surpr
 ## How to run
 I added the Makefile. You can specify `CC` - c++ compiler, and `STD` - the standard. To simply run all tests just call
 ``` sh 
-	make
+make
 ```
 Here's how to re-run tests with compiler and standard specified
 ``` sh 
-	make -B -E CC=clang++ -E STD=c++23
+make -B -E CC=clang++ -E STD=c++23
 ```
 cleanup
 ``` sh
-	make clear
+make clear
 ```
 
 ## My results
